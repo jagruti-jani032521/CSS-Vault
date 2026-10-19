@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 200px;
+    width: 98%;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #edebeb;
+    display: inline-block;
+
+}
+
+.heading {
+    display: inline-block;
+}
+
+.heading>p {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.ri-search-line {
+    margin-left: -40px;
+}
+
+.heading>input {
+    height: 35px;
+    width: 280px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.banner {
+    height: 120px;
+    width: 200px;
+    background-image: url(https://billingsoftwareindia.in/assets/targeted-assets/supermarket/quick-barcode-scan-and-generation-in-supermaket.webp);
+    background-size: cover;
+    display: inline-block;
+    margin-left: 900px;
+}
+
+.product-info {
+    margin: 50px 0 0 0;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.code {
+    font-weight: bold;
+}
+
+
+.card {
+    margin: 20px 0;
+}
+
+select {
+    font-size: 20px;
+}
+
+.wraper1 {
+    display: inline-block;
+    margin-left: 1150px;
+}
+
+.number1 {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.dropdown1 {
+    display: inline-block;
+}
+
+
+.box {
+    height: 370px;
+    width: 20%;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin: 20px 0 0 50px;
+    display: inline-block;
+}
+
+
+.sale {
+    height: 22px;
+    width: 45px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 10px 0 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.percentage {
+    height: 22px;
+    width: 45px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 5px 0 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.image1 {
+    height: 150px;
+    width: 50%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3p329Zn-lO2owALKAzHDUtOSlUxXLbq7KG3wNp4dowg&s);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+.content1>span {
+    color: gray;
+    text-align: left;
+    margin: 0 0 0 0;
+    padding: 10px;
+}
+
+h4 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+
+.rank1 {
+    height: 35px;
+    width: 90px;
+    background-image: url(https://t3.ftcdn.net/jpg/17/04/13/62/360_F_1704136220_NSIvoxJdVB0cCcljil4yYBA04VtLeKkq.jpg);
+    background-size: cover;
+    display: inline-block;
+    margin: 0 0 0 10px;
+
+}
+
+.rank-number1 {
+    color: gray;
+    font-size: 15px;
+    display: inline-block;
+    padding-top: 8px;
+    /* margin: 0 0 40px 0; */
+
+}
+
+.font {
+    font-size: 15px;
+    color: gray;
+}
+
+.price1 {
+    display: inline-block;
+    margin: 25px 0 0 20px;
+}
+
+
+.price1>p {
+    font-size: 15px;
+}
+
+.button1 {
+    height: 27px;
+    width: 55px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 5px 0 0 150px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px;
+    display: inline-block;
+
+}
+
+.image2 {
+    height: 210px;
+    width: 50%;
+    background-image: url("https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/ciw/2026/9/22/28f6d6dc-df18-4e16-842a-5969639ad43d_B6_907d80c8-fc87-413a-89f5-7ce75d1beb13.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+.sale1 {
+    height: 22px;
+    width: 150px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 10px 0 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.image3 {
+    height: 175px;
+    width: 50%;
+    background-image: url("https://cdn.zeptonow.com/production/ik-seo/inventory/product/eb98ad51-f178-4fb4-b5c7-64f105dd0393-1pJDX59UJDkGaZDlLCximWP8_IVtleMnI/Cadbury-5-Star-Home-Treats-Chocolate-Bars.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+
+.sale2 {
+    height: 22px;
+    width: 45px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 10px 0 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.percentage1 {
+    height: 22px;
+    width: 45px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 5px 0 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.image4 {
+    height: 145px;
+    width: 50%;
+    background-image: url("https://www.bbassets.com/media/uploads/p/l/294297_22-lays-potato-chips-calm-cream-onion-flavour.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+
+.image5 {
+    height: 185px;
+    width: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe7aFsW4VylnVy3p_Q6cZpiLYy6p1yauiKt4WT5oQlfA&s=10");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+
+.image6 {
+    height: 200px;
+    width: 50%;
+    background-image: url("https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/ciw/2025/12/17/8fb7d14a-a9a9-443d-b56f-f79aca911c7c_1Z2RLEGJR8_MN_16122025.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+
+.image7 {
+    height: 200px;
+    width: 50%;
+    background-image: url("https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/ciw/2025/12/17/0df385da-706d-4c59-af5b-4502556156c6_PSLTUXPOU9_MN_16122025.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+
+.image8 {
+    height: 168px;
+    width: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuGX3euUSIPnPYuPVewdj1MBQ3bGs_uqr9q5bSPU28HQ&s=10");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}

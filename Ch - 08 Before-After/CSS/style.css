@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+.heading {
+    height: 130px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.heading p {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.inside1 {
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    padding-top: 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.photo {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid rgb(39, 220, 39);
+    background-image: url(../CSS/images/jagruti.jpeg);
+    background-size: cover;
+}
+
+.info {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 5px 0;
+}
+
+.ri-code-s-slash-line {
+    color: rgb(67, 220, 67);
+}
+
+.profession {
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.inside2 {
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    padding-top: 20px;
+    border-radius: 15px;
+    display: inline-block;
+}

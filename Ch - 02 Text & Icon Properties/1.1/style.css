@@ -1,0 +1,104 @@
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: black;
+}
+
+#card {
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.profile {
+    color: rgb(4, 82, 4);
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.about {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.content {
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.study {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.proffesion {
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+.skill {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+
+.language {
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+.experience {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+
+.company {
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+.contact {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+
+.info {
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+}

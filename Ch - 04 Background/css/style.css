@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+
+    background-image: url(../image/image.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+p {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.linear {
+    background: linear-gradient(90deg, rgb(250, 180, 50), rgb(255, 91, 91));
+    height: 400px;
+    background-attachment: fixed;
+    color: white;
+    font-size: 20px;
+}
+
+
+.radial {
+    background: radial-gradient(circle, rgb(105, 105, 238), rgb(29, 29, 231), rgb(11, 11, 112));
+    height: 400px;
+    background-attachment: fixed;
+    color: white;
+    font-size: 20px;
+}
+
+
+.conic {
+    background: conic-gradient(from 0deg, rgb(250, 180, 50), rgb(243, 164, 164), rgb(255, 91, 91), rgb(250, 180, 50));
+    height: 400px;
+    background-attachment: fixed;
+    color: white;
+    font-size: 20px;
+}
+
+.section {
+
+    height: 50px;
+    width: 100%;
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    
+}
+
+.section>span {
+    font-size: 16px;
+    text-align: left;
+    color: black;
+
+}
+
+.text-block {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.highlight {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.final {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    margin: 60px auto;
+}
+
+h2{
+    margin-bottom: 12px;
+}
+
+.final>span {
+    text-align: center;
+    color: gray;
+    
+}

@@ -1,0 +1,387 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.First {
+    height: 453px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+
+.First>ul {
+    padding: 15px;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.list {
+    margin-top: 5px;
+
+}
+
+.heading {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.line {
+    list-style-type: disc;
+    margin-top: 10px;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: flex-start;
+    height: 250px;
+    width: 100%;
+    background-color: yellow;
+    margin: 20px 2px 0 10px;
+}
+
+.Box {
+    height: 80px;
+    width: 109px;
+    background-color: bisque;
+    color: black;
+    /* padding: 5px; */
+    font-size: 13px;
+}
+
+.blank1 {
+    height: 30px;
+}
+
+.Second {
+    height: 353px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+
+.Second>ul {
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: flex-end;
+    height: 250px;
+    width: 100%;
+    background-color: yellow;
+    margin: 20px 2px 0 10px;
+}
+
+.Third {
+    height: 353px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.Third>ul {
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    background-color: yellow;
+    margin: 20px 2px 0 10px;
+}
+
+.Four {
+    height: 353px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.Four>ul {
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    height: 233px;
+    width: 100%;
+    background-color: yellow;
+    margin: 20px 2px 0 10px;
+}
+
+.Five {
+    height: 353px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.Five>ul {
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-around;
+    height: 233px;
+    width: 100%;
+    background-color: yellow;
+    margin: 20px 2px 0 10px;
+}
+
+.Six {
+    height: 353px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.Six>ul {
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.container6 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 233px;
+    width: 100%;
+    background-color: yellow;
+    margin: 20px 2px 0 10px;
+}
+
+.Seven {
+    height: 448px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+
+.Seven>ul {
+    padding: 15px;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.heading {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.line {
+    list-style-type: disc;
+    margin-top: 10px;
+}
+
+.container7 {
+    display: flex;
+    align-items: flex-start;
+    height: 250px;
+    width: 100%;
+    background-color: yellow;
+    margin: 20px 2px 0 10px;
+}
+
+.Box {
+    height: 80px;
+    width: 109px;
+    background-color: bisque;
+    color: black;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.Eight {
+    height: 353px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.Eight>ul {
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.container8 {
+    display: flex;
+    align-items: flex-end;
+    height: 250px;
+    width: 100%;
+    background-color: yellow;
+    margin: 20px 2px 0 10px;
+}
+
+.Nine {
+    height: 353px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.Nine>ul {
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.container9 {
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    background-color: yellow;
+    margin: 20px 2px 0 10px;
+}
+
+.Ten {
+    height: 353px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.Ten>ul {
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.container10 {
+    display: flex;
+    align-items: stretch;
+    height: 233px;
+    width: 100%;
+    background-color: yellow;
+    margin: 20px 2px 0 10px;
+}
+
+.Eleven {
+    height: 353px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.Eleven>ul {
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.container11 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 233px;
+    width: 100%;
+    background-color: yellow;
+    margin: 20px 2px 0 10px;
+}
+
+.Twelve {
+    height: 353px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.Twelve>ul {
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.container12 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 233px;
+    width: 100%;
+    background-color: yellow;
+    margin: 20px 2px 0 10px;
+}
+
+.Thirteen {
+    height: 353px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.Thirteen>ul {
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.container13 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    height: 233px;
+    width: 100%;
+    background-color: yellow;
+    margin: 20px 2px 0 10px;
+}

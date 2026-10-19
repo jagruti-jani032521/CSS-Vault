@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+}
+
+#card {
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.profile {
+    color: rgb(4, 82, 4);
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    word-spacing: 2px;
+}
+
+.about {
+    text-indent: 20px;
+}
+
+.skills {
+    list-style: none;
+    line-height: 1.8;
+}

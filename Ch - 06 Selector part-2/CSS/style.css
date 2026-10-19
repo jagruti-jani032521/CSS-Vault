@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    height: 80px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.box1 {
+    height: 1080px;
+    width: 200px;
+    border: 2px solid gray;
+    margin: 0 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h2 {
+    text-align: left;
+    padding: 10px;
+}
+
+ul {
+    padding: 10px 20px;
+}
+
+ul>:first-child {
+    color: blue;
+}
+
+.box2 {
+    height: 1080px;
+    width: 1255px;
+    border: 2px solid gray;
+    display: inline-block;
+}
+
+.box2>h2 {
+    text-align: left;
+    padding: 10px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+p:first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+.box2>:nth-last-child(2)::selection {
+    background-color: yellow;
+    color: red;
+}
+
+.box2:first-child>::first-letter {
+    color: red;
+}
+
+.photo1 {
+    height: 250px;
+    width: 400px;
+    background-image: url(https://www.pankajkumarseo.com/wp-content/uploads/2019/12/What-Is-Blogging-Marketing.png);
+    background-size: cover;
+    border: 2px solid gray;
+    margin: 20px 10px;
+}
+
+.photo2 {
+    height: 250px;
+    width: 400px;
+    background-image: url(https://cdn.bluent.com/images/3d-bedroom-designs.webp);
+    background-size: cover;
+    border: 2px solid gray;
+    margin: 20px 10px;
+}
+
+.box3>ul :first-child {
+    background-color: rgb(167, 246, 167);
+    color: black;
+}
+
+
+.box3>ul :nth-last-child(3) {
+    background-color: aquamarine;
+    color: black;
+}
+
+
+.box3>ul :nth-last-child(2) {
+    background-color: rgb(167, 246, 167);
+    color: red;
+    font-style: italic;
+}
+
+.box3>ul :nth-last-child(1) {
+    background-color: aquamarine;
+}
