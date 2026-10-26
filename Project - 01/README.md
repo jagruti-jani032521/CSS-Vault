@@ -35,7 +35,7 @@ E-Grocery-Super-Market/
 Follow these steps to run the project locally.
 
 1. Clone the Repository
-git clone <your-repository-url>
+git clone <https://github.com/jagruti-jani032521/CSS-Vault/tree/main/Project%20-%2001>
 
 2. Open the Project Folder
 cd E-Grocery-Super-Market
@@ -76,11 +76,22 @@ Add a shopping cart and checkout interface.
 
 This is currently a front-end UI project. The search bar, sorting options, and Add buttons are visual interface elements and do not yet provide complete shopping functionality. Product images are loaded from external URLs and may depend on their availability.
 
-👩‍💻 Author
 
-Jagruti Jani
+## 🖥️ Output Preview
 
-GitHub: jagruti-jani032521
+### 📸 Website Screenshot
+
+![E-Grocery Super Market Output](output/E-Grocery(Screenshot-1).png)
+![E-Grocery Super Market Output](output/E-Grocery(Screenshot-2).png)
+
+### 🎥 Website Demo Video
+
+[Watch the E-Grocery Super Market Demo](videos/demo-video.mp4)
+
+
+👩‍💻 Author 
+
+GitHub: [jagruti-jani032521](https://github.com/jagruti-jani032521)
 
 This project is created for educational and personal portfolio purposes. Add a license file if you intend to distribute the project under a specific open-source license.
 
