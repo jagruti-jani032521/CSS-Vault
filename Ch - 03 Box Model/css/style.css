@@ -87,23 +87,20 @@
     display: inline-block;
 }
 
-/* .box2 {
-    width: 280px;
-    height: 320px;
-    padding: 20px;
-    margin: 40px 0 0 200px;
-    background-color: #e8e8e8;
-    display: inline-block;
-} */
 
 .inside2 {
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
     background-color: white;
     padding: 20px;
     margin: 50px 0 0 250px;
     border-radius: 15px;
     border: 2px solid rgb(240, 237, 237);
+}
+
+.intro {
+    width: 180px;
+    height: 80px;
 }
 
 .name1 {
@@ -112,6 +109,7 @@
     font-weight: bold;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(66, 179, 224);
+    margin: 5px 0;
 
 }
 
@@ -121,65 +119,64 @@
     font-weight: normal;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: grey;
-
+    margin: 5px 0;
 }
-
-.intro {
-    vertical-align: top;
-}
-
 
 .photo1 {
     width: 80px;
     height: 80px;
-    margin: 0 0 0 100px;
-    border: 2px solid blue;
+    margin: -80px 0 0 100px;
+    border-radius: 5px;
     background-image: url(../image/profile.jpg);
     background-size: cover;
-    vertical-align: top;
-
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
 .section {
     width: 100%;
-    height: 10px;
+    height: 32px;
     background-color: blue;
-    padding: 12px;
-    margin: 10px auto;
+    padding: 12px 0;
+    margin-top: 15px;
     border-radius: 8px;
     color: white;
+    text-align: center;
 }
 
 .ri-facebook-fill {
     font-size: 15px;
-    margin-bottom: 10px;
+    margin: 0 8px;
     color: white;
 }
 
 .ri-twitter-line {
     font-size: 15px;
-    margin: 0;
+    margin: 0 8px;
     color: white;
 }
 
 .ri-linkedin-fill {
     font-size: 15px;
-    margin: 0;
+    margin: 0 8px;
     color: white;
 }
 
 .ri-instagram-line {
     font-size: 15px;
-    margin: 0;
+    margin: 0 8px;
     color: white;
 }
 
 .content {
+    width: 100%;
+    height: auto;
     text-align: center;
     font-size: 14px;
+    margin-top: 10px;
+    padding: 5px;
     font-weight: normal;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: grey;
-    margin: 10px auto;
 }

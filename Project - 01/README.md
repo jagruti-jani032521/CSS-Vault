@@ -86,7 +86,7 @@ This is currently a front-end UI project. The search bar, sorting options, and A
 
 ### 🎥 Website Demo Video
 
-[Watch the E-Grocery Super Market Demo](videos/demo-video.mp4)
+[Watch the E-Grocery Super Market Demo](videos/demo-video.mp4)<video controls src="output/E-Grocery Super Market.mp4" title="Title"></video>
 
 
 👩‍💻 Author 
