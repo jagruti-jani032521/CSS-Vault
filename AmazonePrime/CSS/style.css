@@ -203,8 +203,6 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-
-
 }
 
 .join-prime-btn {
@@ -217,7 +215,7 @@ body {
     font-weight: 600;
     border: none;
     border-radius: 14px;
-
+    transition: all 0.2s ease;
 }
 
 .join-prime-btn a {
@@ -225,7 +223,20 @@ body {
     color: white;
     font-size: 16px;
     font-weight: 600;
+}
 
+.watch {
+    transition: all 0.2s ease;
+
+}
+
+.join-prime-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.join-prime-btn:hover .watch {
+    color: black;
 }
 
 .round-btn {
@@ -237,7 +248,11 @@ body {
     background-color: #33383d;
     color: white;
     margin-left: 10px;
+}
 
+.round-btn:hover {
+    background-color: white;
+    color: black;
 }
 
 .latest-tv {
@@ -356,6 +371,17 @@ body {
     background-color: #33383d;
     color: white;
     margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.2 ease-in-out;
+
+}
+
+.btn-movie:hover {
+    background-color: white;
+    color: black;
+    scale: 1.1;
+    font-size: 26px;
+
 }
 
 .ri-arrow-right-circle-line {
@@ -1650,7 +1676,6 @@ body {
     margin-bottom: 12px;
 }
 
-
 .card-29 {
     height: 150px;
     width: 300px;
@@ -1663,6 +1688,7 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
 
 .card-29:hover {
     scale: 1.28;
@@ -1691,4 +1717,273 @@ body {
 .card-29-content h3 {
     font-size: 18px;
     margin-bottom: 12px;
+}
+
+.originals {
+    width: 100%;
+    padding: 0 0 0 60px;
+    margin-bottom: 30px;
+}
+
+.card-30 {
+    height: 400px;
+    width: 300px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/f33cb6fcae9a5a9793487ed7369ddeecad14a4f16f36e20ac596f580817ed628._UR2000,3000_CLs%7C2000,3000%7C/G/bundle/BottomRightCardGradient2x3.png,/G/01/digital/video/merch/subs/benefit-id/m-r/Prime/logos/channels-logo-white.png%7C0,0,2000,3000+0,0,2000,3000+1665,2767,253,150_kvf21cb47db8d34aa971cd86f57a65cf8d_SX500_FMavif_PQ65_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.card-30:hover {
+    border-radius: 14px 14px 0 0;
+    z-index: 10;
+    width: 1000px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/0b35df1e1eb8529284fba03bcef3c2e7610c8c28729ab3e7a1c212edb900174a._SX1920_FMavif_PQ65_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-30:hover .card-30-content {
+    opacity: 1;
+    width: 300px;
+}
+
+
+.card-30-content {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 200px;
+    padding: 12px;
+    border-radius: 0 0 14px 14px;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.card-30-content h2 {
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+.card-31 {
+    height: 400px;
+    width: 300px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/434e0ffb742559d95855e55b8c1a2939f0eb57e95cd443d18d76db06a31b2a7a._UR2000,3000_CLs%7C2000,3000%7C/G/bundle/BottomRightCardGradient2x3.png,/G/31/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,2000,3000+0,0,2000,3000+1732,2767,186,150_kvb2ee62466f5f36d1258e7371eef3f15a_SX500_FMavif_PQ65_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.card-31:hover {
+    border-radius: 14px 14px 0 0;
+    z-index: 10;
+    width: 1000px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/821c5bb9a5c9db765ec00a6570b1a3de32a2d8c2cfc011177068dc4a84818d28._SX1920_FMavif_PQ65_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-31:hover .card-31-content {
+    opacity: 1;
+    width: 300px;
+}
+
+
+.card-31-content {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 200px;
+    padding: 12px;
+    border-radius: 0 0 14px 14px;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.card-31-content h2 {
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+.card-32 {
+    height: 400px;
+    width: 300px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/211d10610b2aa93a292f9b6390cde27a59fd0a6fd09ffec32aeeffdfd8f5bacd._UR2000,3000_CLs%7C2000,3000%7C/G/bundle/BottomRightCardGradient2x3.png,/G/01/digital/video/merch/subs/benefit-id/m-r/Prime/logos/channels-logo-white.png%7C0,0,2000,3000+0,0,2000,3000+1665,2767,253,150_kvf21cb47db8d34aa971cd86f57a65cf8d_SX500_FMavif_PQ65_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.card-32:hover {
+    border-radius: 14px 14px 0 0;
+    z-index: 10;
+    width: 1000px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/78c47d5e45125a0e252710b0d8de170c9887144e877d0c1b770caff857dfa5bc._SX1920_FMavif_PQ65_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-32:hover .card-32-content {
+    opacity: 1;
+    width: 300px;
+}
+
+
+.card-32-content {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 200px;
+    padding: 12px;
+    border-radius: 0 0 14px 14px;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.card-32-content h2 {
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+.card-33 {
+    height: 400px;
+    width: 300px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/48f5c17098ec386b6d2b4c0a82398ccd0985524269ad4c7a6ffc3b6b2dfed048._UR2000,3000_CLs%7C2000,3000%7C/G/bundle/BottomRightCardGradient2x3.png,/G/01/digital/video/merch/subs/benefit-id/m-r/Prime/logos/channels-logo-white.png%7C0,0,2000,3000+0,0,2000,3000+1665,2767,253,150_kvf21cb47db8d34aa971cd86f57a65cf8d_SX500_FMavif_PQ65_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.card-33:hover {
+    border-radius: 14px 14px 0 0;
+    z-index: 10;
+    width: 1000px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/3edc245f227c8a19add175fece1a29469c709ee92636e2a4202d29d52753fcf8._SX1920_FMavif_PQ65_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-33:hover .card-33-content {
+    opacity: 1;
+    width: 300px;
+}
+
+
+.card-33-content {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 200px;
+    padding: 12px;
+    border-radius: 0 0 14px 14px;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.card-33-content h2 {
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+.card-34 {
+    height: 400px;
+    width: 300px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/822f6acd127358d71ed3cd0efd55e838693382c901d83686cec4c7c27bd6baa4._UR2000,3000_CLs%7C2000,3000%7C/G/bundle/BottomRightCardGradient2x3.png,/G/01/digital/video/merch/subs/benefit-id/m-r/Prime/logos/channels-logo-white.png%7C0,0,2000,3000+0,0,2000,3000+1665,2767,253,150_kvf21cb47db8d34aa971cd86f57a65cf8d_SX500_FMavif_PQ65_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-34:hover {
+    border-radius: 14px 14px 0 0;
+    z-index: 10;
+    width: 1000px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/8aed532f0875925f72c4012aab688ed409773ecbfb3b18e1a39cd9ad1a4dd485._SX1920_FMavif_PQ65_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-34:hover .card-34-content {
+    opacity: 1;
+    width: 300px;
+}
+
+
+.card-34-content {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 200px;
+    padding: 12px;
+    border-radius: 0 0 14px 14px;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.card-34-content h2 {
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.ending {
+    color: blue;
+    text-decoration: none;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.footer-prime-logo img {
+    width: 90px;
+    margin-top: 150px;
+
 }
