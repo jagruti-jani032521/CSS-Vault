@@ -35,7 +35,7 @@ body {
 @keyframes headerScroll {
     from {
         border-radius: 0;
-        background-color: gray;
+        background-color: transparent;
         backdrop-filter: blur(0px);
     }
 
@@ -1747,6 +1747,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 16px;
 }
 
 .card-30:hover .card-30-content {
@@ -1793,6 +1794,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 16px;
+
 }
 
 .card-31:hover .card-31-content {
@@ -1839,6 +1842,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 16px;
+
 }
 
 .card-32:hover .card-32-content {
@@ -1885,6 +1890,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 16px;
+
 }
 
 .card-33:hover .card-33-content {
@@ -1930,6 +1937,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 16px;
+
 }
 
 .card-34:hover .card-34-content {
