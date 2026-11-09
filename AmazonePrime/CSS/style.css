@@ -114,11 +114,127 @@ body {
     transition: background-color 0.5s ease;
 }
 
-.icon-btn:hover,
-.lang-btn:hover {
+
+.catagories-dropdown {
+    position: relative;
+
+}
+
+.catagories-dropdown:hover .icon-btn {
     background-color: white;
     color: black;
 }
+
+.catagories-menu {
+    position: absolute;
+    top: 100%;
+    right: -100px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.44);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    z-index: 999;
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+.catagories-group {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.catagories-dropdown:hover .catagories-menu {
+    opacity: 1;
+}
+
+.catagories-option {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.sub-heading {
+    color: gray;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+
+}
+
+.catagories-option:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.profile-dropdown {
+    position: relative;
+
+}
+
+.profile-dropdown:hover .icon-btn {
+    background-color: white;
+    color: black;
+}
+
+.profile-menu {
+    position: absolute;
+    top: 100%;
+    right: -100px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.44);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    z-index: 999;
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+.profile-group {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.profile-dropdown:hover .profile-menu {
+    opacity: 1;
+}
+
+.profile-option {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.profile-option:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
 
 .lang-btn {
     height: 40px;
@@ -132,6 +248,60 @@ body {
     cursor: pointer;
     transition: background-color 0.5s ease;
 }
+
+.language-dropdown {
+    position: relative;
+
+}
+
+.language-dropdown:hover .lang-btn {
+    background-color: white;
+    color: black;
+}
+
+.language-menu {
+    position: absolute;
+    top: 100%;
+    right: -200px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.44);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    z-index: 999;
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+.language-group {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.language-dropdown:hover .language-menu {
+    opacity: 1;
+}
+
+.language-option {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.language-option:hover {
+    background-color: white;
+    color: black;
+}
+
 
 .profile {
     height: 30px;
@@ -1477,7 +1647,6 @@ body {
 .card-24:hover .card-24-content {
     opacity: 1;
 }
-
 
 .card-24-content {
     position: absolute;
