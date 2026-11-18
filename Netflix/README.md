@@ -46,7 +46,7 @@ Netflix-India-Clone/
 1. Clone this repository:
 
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone <https://github.com/jagruti-jani032521/CSS-Vault/tree/main/Netflix>
    ```
 
 2. Open the project folder.
@@ -73,6 +73,39 @@ Netflix-India-Clone/
 - Add functional email input validation.
 - Improve animations and transitions.
 
+## 📸 Project Output
+
+Here are some screenshots and a video demonstration of the Netflix India Homepage Clone.
+
+### 🖥️ Screenshots
+
+**1. Homepage – Hero Section**
+
+![Home page](<output/Netflix-Home Page.png>)
+
+**2. Trending Now Section**
+
+![Trending Section](<output/Netflix-Trending Section.png>)
+
+**3. More Reasons to Join Section**
+
+![More Reason Section](<output/Netflix-More Reason Section.png>)
+
+**4. Frequently Asked Questions Section**
+
+![FAQs Section](<output/Netflix-FAQs Section.png>)
+
+**5. Footer Section**
+
+![Footer Section](<output/Netflix-Footer Section.png>)
+
+### 🎥 Project Demo Video
+
+Watch the video demonstration of the Netflix India Homepage Clone.
+
+<video controls src="output/Netflix.mp4" title="Netflix Clone"></video>
+
+
 ## 👩‍💻 About the Developer
 
 **Jagruti Jani**
@@ -81,8 +114,9 @@ Aspiring Full Stack Developer passionate about learning web technologies and bui
 
 ## 🌐 Connect With Me
 
-- **GitHub:** [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- **GitHub Profile:** https://github.com/YOUR_USERNAME
+- GitHub: [jagruti-jani032521](https://github.com/jagruti-jani032521)
+- GitHub Profile: https://github.com/jagruti-jani032521
+
 
 ## ⚠️ Disclaimer
 
