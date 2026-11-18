@@ -103,7 +103,7 @@ Here are some screenshots and a video demonstration of the Netflix India Homepag
 
 Watch the video demonstration of the Netflix India Homepage Clone.
 
-<video controls src="output/Netflix.mp4" title="Netflix Clone"></video>
+[watch netflix demo video](videos/demo-video.mp4)<video controls src="output/Netflix.mp4" title="Netflix Clone"></video>
 
 
 ## 👩‍💻 About the Developer
