@@ -1,0 +1,568 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    /* width: 94%; */
+    /* height: 700px; */
+    padding: 0 1.5%;
+    margin: 0 auto;
+    display: flex;
+    top: 0;
+    align-items: start;
+    gap: 24px;
+    /* opacity: 0.7; */
+    /* animation: headerScroll linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0px 120px; */
+    /* position: sticky; */
+}
+
+.logo img {
+    width: 150px;
+    margin: 20px 0 0 100px;
+}
+
+.nav-action {
+    display: flex;
+    align-items: start;
+    padding: 20px;
+    gap: 10px;
+}
+
+.ri-translate-2 {
+    color: white;
+    font-size: 18px;
+    padding: 5px 0 5px 5px;
+
+}
+
+.language-dropdown {
+    margin-left: 900px;
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.lang-option {
+    background-color: white;
+    color: black;
+}
+
+.language-dropdown .lang-selection {
+    background-color: black;
+    color: white;
+    padding: 5px 5px 5px 0;
+    font-size: 16px;
+    border: none;
+    margin-right: 3px;
+}
+
+.log-in {
+    margin-top: 6px;
+}
+
+.log-in .log-in-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.log-in-btn:hover {
+    background-color: rgb(224, 13, 13);
+    cursor: pointer;
+}
+
+.line {
+    background-image: url("../assets/divider.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.hero {
+    width: 100%;
+    height: 800px;
+    margin-top: -173px;
+    padding: 178px 0 0 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://assets.nflxext.com/ffe/siteui/vlv3/d8132cba-0024-4b01-86f4-2bac9792e1dd/web/IN-en-20261102-TRIFECTA-perspective_971d7f82-9e80-48cc-aedc-f7bc0e68c14f_large.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 150px;
+}
+
+.plan {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.membership {
+    font-size: 17px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+}
+
+.email {
+    height: 58px;
+    width: 380px;
+    border: 1px solid gray;
+    background-color: rgb(27, 26, 26);
+    color: rgb(224, 211, 211);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 430px;
+    text-align: left;
+
+}
+
+.start-btn {
+    background-color: red;
+    color: white;
+    padding: 15px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    font-size: 22px;
+}
+
+.start-btn:hover {
+    background-color: rgb(224, 13, 13);
+    cursor: pointer;
+}
+
+.movie {
+    display: flex;
+    gap: 60px;
+}
+
+.card {
+    position: relative;
+    height: 250px;
+    width: 180px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSVOfPsTf7UGpixd_qWQe4a4l8jEnJZeYC0hXm3st_nw&s=10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.title h4 {
+    font-size: 22px;
+    margin-left: 180px;
+}
+
+.announcement {
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: -22px;
+}
+
+.card-1 {
+    position: relative;
+    height: 250px;
+    width: 180px;
+    background-image: url("https://cdn.district.in/movies-assets/images/cinema/Vishwanath-And-Sons-2e65d3f0-16d0-11f1-abbe-6dbadd0eb578.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    /* margin-left: 200px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-1:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.card-2 {
+    position: relative;
+    height: 250px;
+    width: 180px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0OZ2H6kxxnjUnQ8r1E3WOHiNxv4p-pueZ6oL5bK7tTA&s=10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    /* margin-left: 200px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-2:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.card-3 {
+    position: relative;
+    height: 250px;
+    width: 180px;
+    background-image: url("https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/the-paradise-et00436621-1790070101.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    /* margin-left: 200px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-3:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.card-4 {
+    position: relative;
+    height: 250px;
+    width: 180px;
+    background-image: url("https://resizing.flixster.com/DDMjj5Z0fBT9lyfD4Bu40K2OnZA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzdhMTUwNjY2LTgyN2UtNDI1Mi1hZWQyLTY2NjdhNDFlNmJlMy5qcGc=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-4:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.card-5 {
+    height: 80px;
+    width: 20px;
+    background-color: rgb(54, 51, 51);
+    border-radius: 2px;
+    margin-top: 100px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.card-5:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.title h3 {
+    font-size: 22px;
+    margin-left: 180px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.advertise {
+    display: flex;
+    gap: 20px;
+}
+
+.card-6 {
+    width: 280px;
+    height: 280px;
+    border: 2px solid;
+    border-radius: 20px;
+    background: linear-gradient(#0c095b, #76001a);
+    margin-left: 150px;
+    padding: 12px;
+}
+
+.card-6 h4 {
+    font-size: 23px;
+    margin: 15px auto;
+}
+
+.description {
+    color: rgb(228, 219, 219);
+    font-size: 16px;
+}
+
+.icon {
+    margin: 50px 0 0 190px;
+    font-size: 60px;
+}
+
+
+.card-7 {
+    width: 280px;
+    height: 280px;
+    border: 2px solid;
+    border-radius: 20px;
+    background: linear-gradient(#0c095b, #76001a);
+    padding: 15px;
+}
+
+.card-7 h4 {
+    font-size: 23px;
+    margin: 15px auto;
+}
+
+.ri-emoji-sticker-line {
+    margin-bottom: 60px;
+}
+
+.title h2 {
+    font-size: 26px;
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.card-8 {
+    width: 1180px;
+    height: 80px;
+    background-color: rgb(56, 54, 54);
+    margin-left: 160px;
+    padding: 15px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.card-8 .ri-add-large-fill {
+    margin-left: 950px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-8:hover {
+    background-color: rgb(93, 88, 88);
+    cursor: pointer;
+}
+
+
+.card-9 {
+    width: 1180px;
+    height: 80px;
+    background-color: rgb(56, 54, 54);
+    margin-left: 160px;
+    padding: 15px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.card-9 .ri-add-large-fill {
+    margin-left: 820px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-9:hover {
+    background-color: rgb(93, 88, 88);
+    cursor: pointer;
+}
+
+
+.card-10 {
+    width: 1180px;
+    height: 80px;
+    background-color: rgb(56, 54, 54);
+    margin-left: 160px;
+    padding: 15px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.card-10 .ri-add-large-fill {
+    margin-left: 914px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-10:hover {
+    background-color: rgb(93, 88, 88);
+    cursor: pointer;
+}
+
+
+.card-11 {
+    width: 1180px;
+    height: 80px;
+    background-color: rgb(56, 54, 54);
+    margin-left: 160px;
+    padding: 15px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.card-11 .ri-add-large-fill {
+    margin-left: 944px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-11:hover {
+    background-color: rgb(93, 88, 88);
+    cursor: pointer;
+}
+
+
+.card-12 {
+    width: 1180px;
+    height: 80px;
+    background-color: rgb(56, 54, 54);
+    margin-left: 160px;
+    padding: 15px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.card-12 .ri-add-large-fill {
+    margin-left: 832px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-12:hover {
+    background-color: rgb(93, 88, 88);
+    cursor: pointer;
+}
+
+
+.card-13 {
+    width: 1180px;
+    height: 80px;
+    background-color: rgb(56, 54, 54);
+    margin-left: 160px;
+    padding: 15px;
+    font-size: 22px;
+    margin-bottom: 70px;
+}
+
+.card-13 .ri-add-large-fill {
+    margin-left: 880px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-13:hover {
+    background-color: rgb(93, 88, 88);
+    cursor: pointer;
+}
+
+.email-1 {
+    height: 58px;
+    width: 600px;
+    border: 1px solid gray;
+    background-color: rgb(27, 26, 26);
+    color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 360px;
+    text-align: left;
+}
+
+.number {
+    margin: 100px 0 20px 160px;
+    font-size: 16px;
+    color: gray;
+
+}
+
+.footer {
+    display: flex;
+}
+
+.row-1 {
+    margin: 20px 0 0 160px;
+}
+
+.faqs {
+    display: flex;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.row-2 {
+    margin: 20px 0 0 170px;
+}
+
+.help {
+    display: flex;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+
+.language-dropdown-1 {
+    width: 130px;
+    margin: 40px 160px;
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.lang-option-1 {
+    background-color: white;
+    color: black;
+}
+
+.language-dropdown-1 .lang-selection-1 {
+    background-color: black;
+    color: white;
+    padding: 5px 5px 5px 0;
+    font-size: 16px;
+    border: none;
+    margin-right: 3px;
+}
+
+.n-india {
+    margin-left: 160px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.google {
+    margin-left: 160px;
+    color: gray;
+    margin-bottom: 100px;
+}
