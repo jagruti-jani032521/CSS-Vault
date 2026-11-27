@@ -62,8 +62,6 @@ body {
     width: 2px;
     height: 25px;
     background-color: gray;
-
-
 }
 
 .nav-link {
@@ -716,7 +714,6 @@ body {
     opacity: 1;
 }
 
-
 .card-3-content {
     position: absolute;
     top: 100%;
@@ -734,7 +731,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-4 {
     height: 150px;
@@ -758,7 +754,6 @@ body {
 .card-4:hover .card-4-content {
     opacity: 1;
 }
-
 
 .card-4-content {
     position: absolute;
@@ -784,7 +779,6 @@ body {
     margin-bottom: 30px;
 }
 
-
 .card-5 {
     height: 150px;
     width: 300px;
@@ -808,7 +802,6 @@ body {
     opacity: 1;
 }
 
-
 .card-5-content {
     position: absolute;
     top: 100%;
@@ -826,7 +819,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-6 {
     height: 150px;
@@ -851,7 +843,6 @@ body {
     opacity: 1;
 }
 
-
 .card-6-content {
     position: absolute;
     top: 100%;
@@ -869,7 +860,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-7 {
     height: 150px;
@@ -894,7 +884,6 @@ body {
     opacity: 1;
 }
 
-
 .card-7-content {
     position: absolute;
     top: 100%;
@@ -912,7 +901,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-8 {
     height: 150px;
@@ -937,7 +925,6 @@ body {
     opacity: 1;
 }
 
-
 .card-8-content {
     position: absolute;
     top: 100%;
@@ -955,7 +942,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-9 {
     height: 150px;
@@ -979,7 +965,6 @@ body {
 .card-9:hover .card-9-content {
     opacity: 1;
 }
-
 
 .card-9-content {
     position: absolute;
@@ -1006,7 +991,6 @@ body {
     margin-bottom: 30px;
 }
 
-
 .card-10 {
     height: 150px;
     width: 300px;
@@ -1030,7 +1014,6 @@ body {
     opacity: 1;
 }
 
-
 .card-10-content {
     position: absolute;
     top: 100%;
@@ -1048,8 +1031,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
-
 
 .card-11 {
     height: 150px;
@@ -1074,7 +1055,6 @@ body {
     opacity: 1;
 }
 
-
 .card-11-content {
     position: absolute;
     top: 100%;
@@ -1092,7 +1072,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-12 {
     height: 150px;
@@ -1117,7 +1096,6 @@ body {
     opacity: 1;
 }
 
-
 .card-12-content {
     position: absolute;
     top: 100%;
@@ -1135,7 +1113,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-13 {
     height: 150px;
@@ -1160,7 +1137,6 @@ body {
     opacity: 1;
 }
 
-
 .card-13-content {
     position: absolute;
     top: 100%;
@@ -1178,7 +1154,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-14 {
     height: 150px;
@@ -1203,7 +1178,6 @@ body {
     opacity: 1;
 }
 
-
 .card-14-content {
     position: absolute;
     top: 100%;
@@ -1222,13 +1196,11 @@ body {
     margin-bottom: 12px;
 }
 
-
 .comedy {
     width: 100%;
     padding: 0 0 0 60px;
     margin-bottom: 30px;
 }
-
 
 .card-15 {
     height: 150px;
@@ -1253,7 +1225,6 @@ body {
     opacity: 1;
 }
 
-
 .card-15-content {
     position: absolute;
     top: 100%;
@@ -1271,7 +1242,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-16 {
     height: 150px;
@@ -1296,7 +1266,6 @@ body {
     opacity: 1;
 }
 
-
 .card-16-content {
     position: absolute;
     top: 100%;
@@ -1314,7 +1283,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-17 {
     height: 150px;
@@ -1339,7 +1307,6 @@ body {
     opacity: 1;
 }
 
-
 .card-17-content {
     position: absolute;
     top: 100%;
@@ -1357,7 +1324,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-18 {
     height: 150px;
@@ -1382,7 +1348,6 @@ body {
     opacity: 1;
 }
 
-
 .card-18-content {
     position: absolute;
     top: 100%;
@@ -1400,7 +1365,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-19 {
     height: 150px;
@@ -1424,7 +1388,6 @@ body {
 .card-19:hover .card-19-content {
     opacity: 1;
 }
-
 
 .card-19-content {
     position: absolute;
@@ -1451,7 +1414,6 @@ body {
     margin-bottom: 30px;
 }
 
-
 .card-20 {
     height: 150px;
     width: 300px;
@@ -1475,7 +1437,6 @@ body {
     opacity: 1;
 }
 
-
 .card-20-content {
     position: absolute;
     top: 100%;
@@ -1493,7 +1454,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-21 {
     height: 150px;
@@ -1518,7 +1478,6 @@ body {
     opacity: 1;
 }
 
-
 .card-21-content {
     position: absolute;
     top: 100%;
@@ -1536,7 +1495,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-22 {
     height: 150px;
@@ -1561,7 +1519,6 @@ body {
     opacity: 1;
 }
 
-
 .card-22-content {
     position: absolute;
     top: 100%;
@@ -1579,7 +1536,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-23 {
     height: 150px;
@@ -1604,7 +1560,6 @@ body {
     opacity: 1;
 }
 
-
 .card-23-content {
     position: absolute;
     top: 100%;
@@ -1622,7 +1577,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-24 {
     height: 150px;
@@ -1665,13 +1619,11 @@ body {
     margin-bottom: 12px;
 }
 
-
 .heartfelt-stories {
     width: 100%;
     padding: 0 0 0 60px;
     margin-bottom: 30px;
 }
-
 
 .card-25 {
     height: 150px;
@@ -1696,7 +1648,6 @@ body {
     opacity: 1;
 }
 
-
 .card-25-content {
     position: absolute;
     top: 100%;
@@ -1714,7 +1665,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-26 {
     height: 150px;
@@ -1739,7 +1689,6 @@ body {
     opacity: 1;
 }
 
-
 .card-26-content {
     position: absolute;
     top: 100%;
@@ -1757,7 +1706,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-27 {
     height: 150px;
@@ -1782,7 +1730,6 @@ body {
     opacity: 1;
 }
 
-
 .card-27-content {
     position: absolute;
     top: 100%;
@@ -1800,7 +1747,6 @@ body {
     font-size: 18px;
     margin-bottom: 12px;
 }
-
 
 .card-28 {
     height: 150px;
@@ -1824,7 +1770,6 @@ body {
 .card-28:hover .card-28-content {
     opacity: 1;
 }
-
 
 .card-28-content {
     position: absolute;
@@ -1857,7 +1802,6 @@ body {
     transition: all 0.3s ease;
 }
 
-
 .card-29:hover {
     scale: 1.28;
     border-radius: 14px 14px 0 0;
@@ -1867,7 +1811,6 @@ body {
 .card-29:hover .card-29-content {
     opacity: 1;
 }
-
 
 .card-29-content {
     position: absolute;
@@ -1906,7 +1849,6 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-
 .card-30:hover {
     border-radius: 14px 14px 0 0;
     z-index: 10;
@@ -1922,7 +1864,6 @@ body {
     opacity: 1;
     width: 300px;
 }
-
 
 .card-30-content {
     position: absolute;
@@ -1953,7 +1894,6 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-
 .card-31:hover {
     border-radius: 14px 14px 0 0;
     z-index: 10;
@@ -1970,7 +1910,6 @@ body {
     opacity: 1;
     width: 300px;
 }
-
 
 .card-31-content {
     position: absolute;
@@ -2001,7 +1940,6 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-
 .card-32:hover {
     border-radius: 14px 14px 0 0;
     z-index: 10;
@@ -2018,7 +1956,6 @@ body {
     opacity: 1;
     width: 300px;
 }
-
 
 .card-32-content {
     position: absolute;
@@ -2049,7 +1986,6 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-
 .card-33:hover {
     border-radius: 14px 14px 0 0;
     z-index: 10;
@@ -2066,7 +2002,6 @@ body {
     opacity: 1;
     width: 300px;
 }
-
 
 .card-33-content {
     position: absolute;
@@ -2113,7 +2048,6 @@ body {
     opacity: 1;
     width: 300px;
 }
-
 
 .card-34-content {
     position: absolute;
@@ -2162,5 +2096,4 @@ body {
 .footer-prime-logo img {
     width: 90px;
     margin-top: 150px;
-
 }

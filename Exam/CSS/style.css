@@ -1,0 +1,543 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.start {
+    width: 100%;
+    height: 25px;
+    background-color: rgb(204, 204, 204);
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.coupon {
+    margin-left: 150px;
+    font-size: 16px;
+}
+
+.language-dropdown {
+    margin-left: 800px;
+    background-color: rgb(204, 204, 204);
+    color: gray;
+}
+
+.lang-selection {
+    background-color: rgb(204, 204, 204);
+    color: gray;
+    border: none;
+    font-size: 16px;
+}
+
+.lang-selection:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.lang-option {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+}
+
+.ri-search-line {
+    margin-left: -40px;
+}
+
+.search-bar {
+    margin: 15px 0 0 350px;
+    padding: 10px auto;
+}
+
+.search-bar input {
+    width: 600px;
+    height: 45px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.location {
+    height: 45px;
+    width: 110px;
+    font-size: 18px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 15px 0 0 15px;
+    padding-top: 8px;
+    padding-left: 5px;
+    color: gray;
+}
+
+.location:hover {
+    cursor: pointer;
+    background-color: rgb(226, 218, 218);
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    color: gray;
+    font-size: 22px;
+    margin: 20px 0 0 250px;
+}
+
+.icons:hover {
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+}
+
+.department p {
+    height: 40px;
+    width: 180px;
+    background-color: rgb(71, 197, 71);
+    font-size: 18px;
+    padding: 10px 14px;
+    margin: 15px 0 0 150px;
+    border-radius: 5px;
+}
+
+.nav-link {
+    display: flex;
+    gap: 20px;
+    margin: 24px 0 0 40px;
+    font-size: 17px;
+
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    height: 500px;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-image: url("https://thumbs.dreamstime.com/b/vegetables-fruits-over-grocery-store-background-organic-dieting-80689477.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 100px 0 0 550px;
+}
+
+.announcement {
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+    width: 220px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 50px;
+    width: 370px;
+    margin-bottom: 15px;
+}
+
+.color {
+    color: green;
+}
+
+.info {
+    width: 400px;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.shop {
+    background-color: rgb(35, 34, 34);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.shop:hover {
+    cursor: pointer;
+    background-color: rgb(53, 75, 75);
+}
+
+.content {
+    display: flex;
+    margin-left: 50px;
+}
+
+.card {
+    height: 230px;
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.card:hover {
+    cursor: pointer;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+h4 {
+    font-size: 26px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.ads img {
+    height: 200px;
+    width: 180px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.name {
+    color: gray;
+    padding-left: 40px;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+    margin-left: 150px;
+}
+
+.box {
+    height: 370px;
+    width: 235px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+    padding-top: 20px;
+}
+
+.box:hover {
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.sale {
+    height: 22px;
+    width: 45px;
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    margin: 10px 0 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.image1 {
+    height: 150px;
+    width: 50%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3p329Zn-lO2owALKAzHDUtOSlUxXLbq7KG3wNp4dowg&s);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+.content1>span {
+    color: gray;
+    text-align: left;
+    margin: 0 0 0 10px;
+    padding: 10px;
+}
+
+.content1>p {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+
+.rank1 {
+    height: 35px;
+    width: 90px;
+    background-image: url(https://t3.ftcdn.net/jpg/17/04/13/62/360_F_1704136220_NSIvoxJdVB0cCcljil4yYBA04VtLeKkq.jpg);
+    background-size: cover;
+    display: inline-block;
+    margin: 0 0 0 15px;
+
+}
+
+.rank-number1 {
+    color: gray;
+    font-size: 15px;
+    display: inline-block;
+    padding-top: 8px;
+    /* margin: 0 0 40px 0; */
+
+}
+
+.bottom {
+    display: flex;
+}
+
+.price1 {
+    display: flex;
+    margin: 25px 0 0 20px;
+}
+
+.font {
+    font-size: 15px;
+    color: gray;
+}
+
+.price1>p {
+    font-size: 15px;
+}
+
+.button1 {
+    height: 27px;
+    width: 55px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px;
+    margin: 20px 0 0 90px;
+}
+
+
+.image2 {
+    height: 150px;
+    width: 50%;
+    background-image: url("https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/ciw/2026/9/22/28f6d6dc-df18-4e16-842a-5969639ad43d_B6_907d80c8-fc87-413a-89f5-7ce75d1beb13.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+.sale1 {
+    height: 22px;
+    width: 40px;
+    background-color: green;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    margin: 10px 0 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.image3 {
+    height: 175px;
+    width: 50%;
+    background-image: url("https://cdn.zeptonow.com/production/ik-seo/inventory/product/eb98ad51-f178-4fb4-b5c7-64f105dd0393-1pJDX59UJDkGaZDlLCximWP8_IVtleMnI/Cadbury-5-Star-Home-Treats-Chocolate-Bars.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px auto;
+}
+
+
+.image4 {
+    height: 145px;
+    width: 50%;
+    background-image: url("https://www.bbassets.com/media/uploads/p/l/294297_22-lays-potato-chips-calm-cream-onion-flavour.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px auto;
+}
+
+
+.image5 {
+    height: 185px;
+    width: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe7aFsW4VylnVy3p_Q6cZpiLYy6p1yauiKt4WT5oQlfA&s=10");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px auto;
+}
+
+.image6 {
+    height: 140px;
+    width: 50%;
+    background-image: url("https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/ciw/2025/12/17/8fb7d14a-a9a9-443d-b56f-f79aca911c7c_1Z2RLEGJR8_MN_16122025.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px auto;
+}
+
+.image7 {
+    height: 180px;
+    width: 50%;
+    background-image: url("https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/ciw/2025/12/17/0df385da-706d-4c59-af5b-4502556156c6_PSLTUXPOU9_MN_16122025.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+.image8 {
+    height: 180px;
+    width: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuGX3euUSIPnPYuPVewdj1MBQ3bGs_uqr9q5bSPU28HQ&s=10");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+.image9 {
+    height: 180px;
+    width: 50%;
+    background-image: url("https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/CIW/2025/9/2/dc522917-1bef-497c-b0fd-7e102af39051_8180_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+.image10 {
+    height: 180px;
+    width: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0oUxowPBkg42P2h1vlvva8lhbqc8b9lmRaX-bqYNcgS_LEkeveeOTXNc&s=10");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+.footer {
+    background-color: rgb(214, 212, 212);
+    padding-top: 40px;
+    margin-top: 120px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.row-1 {
+    color: black;
+    margin: 100px 0 0 110px;
+}
+
+.final {
+    color: gray;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.final:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.row-2 {
+    margin: 100px 0 0 60px;
+
+}
+
+.row-3 {
+    margin: 100px 0 0 60px;
+
+}
+
+.row-4 {
+    margin: 100px 0 0 60px;
+
+}
+
+.row-5 {
+    margin: 100px 0 0 60px;
+
+}
+
+.row-6 {
+    margin: 100px 0 0 60px;
+
+}
+
+.payment {
+    background-color: rgb(214, 212, 212);
+    display: flex;
+    gap: 20px;
+    height: 150px;
+}
+
+.payment p {
+    margin: 0 0 0 100px;
+    padding-top: 50px;
+}
+
+.payment img {
+    height: 30px;
+    width: 200px;
+}
+
+.delivery {
+    margin-bottom: 50px;
+}
+
+.delivery img {
+    height: 80px;
+}
+
+.copyright {
+    height: 150px;
+    background-color: rgb(214, 212, 212);
+    color: gray;
+    padding-left: 90px;
+    display: flex;
+    gap: 20px;
+}
+
+.follow-btn {
+    margin-left: 500px;
+}
+
+.ri-facebook-circle-line {
+    height: 30px;
+    width: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.ri-facebook-circle-line:hover {
+    color: green;
+    border: 2px solid green;
+}
+
+.ri-twitter-line {
+    height: 30px;
+    width: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.ri-twitter-line:hover {
+    color: green;
+    border: 2px solid green;
+}
+
+.ri-instagram-line {
+    height: 30px;
+    width: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.ri-instagram-line:hover {
+    color: green;
+    border: 2px solid green;
+}
